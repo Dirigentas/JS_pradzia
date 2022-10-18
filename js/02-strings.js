@@ -2,7 +2,7 @@
 STRING - tekstas
 reiksmes konstravimas:
 - viengubos kabutes (')
-- dvygubos kabutes (")
+- dvigubos kabutes (")
 - bektikas/apostrofas (`)
 Specialusis atvejis:
 - jei tekste yra kabutes, jas norint padaryti ne komandiniu simboliu, o tekstiniu simboliu, galima ta kabute "eskeipinti" -> \
@@ -11,7 +11,6 @@ Specialusis atvejis:
 console.log('2' + '2');
 console.log(2 + 2);
 console.log(2 + '2');
-console.log('2' + 2);
 
 const firstName = 'Petras';
 console.log(firstName);
@@ -96,6 +95,9 @@ console.log(hi3);
 const hiBacktik = `Hi there, ${username}!`;
 console.log(hiBacktik);
 
+console.log(`Hi there, ${username}!`);
+console.log('Hi there,', username +'!');
+
 const n1 = 7;
 const n2 = 5;
 const sum = n1 + n2;
@@ -117,3 +119,5 @@ console.log(sumString2);
 
 const demoBacktip = '${n1} + ${n2} = ${n1 + n2}';
 console.log(demoBacktip);
+
+console.log('----------');
