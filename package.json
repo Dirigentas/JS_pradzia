@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "numbers": "nodemon ./js/01-numbers.js",
-    "strings": "nodemon ./js/02-strings.js",
+    "number": "nodemon ./js/01-number.js",
+    "string": "nodemon ./js/02-string.js",
+    "boolean": "nodemon ./js/03-boolean.js",
+    "array": "nodemon ./js/04-array.js",
+    "object": "nodemon ./js/05-object.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

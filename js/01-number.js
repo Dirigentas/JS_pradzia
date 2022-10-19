@@ -12,7 +12,7 @@ SKAICIAI:
 - begalybe (Infinity)
 - NaN (not-a-number)
 OPERATORIAI: +, -, *, /, ** (kelimas laipsniu)
-MATEMATINES FUNKCIJOS:
+MATEMATINES FUNKCIJOS (Math.):
 - sqrt (saknis)
 - sin/cos
 - abs (absoliutine reiksme)
