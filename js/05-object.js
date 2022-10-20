@@ -86,7 +86,7 @@ const mokykla = {
         },
     ],
 }
-
+``
 const klase = 2;
 const mokinioIndex = 1;
 const kurisTevas = 'mama';
@@ -97,3 +97,4 @@ console.log(kazkas);
 console.log('=================================');
 
 console.log(mokykla[(3-2)*2][0].tevai.tete.length);
+console.log('=================================');

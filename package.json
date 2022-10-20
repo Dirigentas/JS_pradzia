@@ -10,6 +10,8 @@
     "boolean": "nodemon ./js/03-boolean.js",
     "array": "nodemon ./js/04-array.js",
     "object": "nodemon ./js/05-object.js",
+    "function": "nodemon ./js/06-function.js",
+    "if": "nodemon ./js/07-if.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

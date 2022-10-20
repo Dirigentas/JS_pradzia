@@ -68,3 +68,16 @@ console.log(number1);
 number2 = Math.sqrt(number1)
 console.log(Math.sqrt(number1));
 console.log(Math.round(number1));
+
+console.log('=====================');
+console.clear()
+
+function oddOrEven(array) {
+   
+}
+const ats = oddOrEven([]);
+console.log(ats);
+
+oddOrEven([0, 1, 5]), 'even'
+oddOrEven([0, 1, 3]), 'even'
+oddOrEven([1023, 1, 2]), 'even'
