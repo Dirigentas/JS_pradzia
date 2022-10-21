@@ -73,11 +73,11 @@ console.log('=====================');
 console.clear()
 
 function oddOrEven(array) {
-   
+    return array.reduce()
 }
 const ats = oddOrEven([]);
 console.log(ats);
 
-oddOrEven([0, 1, 5]), 'even'
-oddOrEven([0, 1, 3]), 'even'
-oddOrEven([1023, 1, 2]), 'even'
+console.log(oddOrEven([0, 1, 5]), 'even')
+console.log(oddOrEven([0, 1, 3]), 'even')
+console.log(oddOrEven([1023, 1, 2]), 'even')

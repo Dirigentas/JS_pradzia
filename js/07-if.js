@@ -2,7 +2,7 @@
 () paramentrams
 {} logikos blokas
 jei nepriskirta 'const' arba 'let', tai by default priskiria 'var' (rizikingas)
-== ir != lygina tarp skirtingu tipu === ir  !== lygina tik to paties tipo
+== ir != lygina tarp skirtingu tipu, o  === ir  !== lygina tik to paties tipo
 nesting - kodo rasymas gilyn
 'nestinimas' vs 'else if' - reikia pasirinkti, kuriam bus panaudota maziau kodo
 */
@@ -12,7 +12,7 @@ IF - salygos sakinys / palyginimas
 Palyginimo operatoriai: <, >, ==, !=, >=, <=, ===, !==
 Naudotini: <, >, >=, <=, ===, !==
 Nenaudotini: ==, !=
-Loginiai operatoriai: && (and), || (or), ! (negate).
+Loginiai operatoriai: && (and), || (or), ! (negate). 
 Sablonai:
 if () {}
 if () {} else {}
