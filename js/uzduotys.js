@@ -112,24 +112,4 @@ console.clear()
 
 console.log('TEST=====================');
 
-function countPositivesSumNegatives(input) {
-    if (input === null) {
-        return []
-    }
-    if (!input.length) {
-        return []
-    }
-    let b=0
-    let c=0
-    for (i = 0; i < input.length; i = i + 1) {
-        if (input[i] > 0) {
-            b = b + 1
-        }
-        else if (input[i] < 0) {
-            c = c + input[i]
-        }
-    }
-    return [b, c]
-}
 
-console.log(countPositivesSumNegatives([]));
