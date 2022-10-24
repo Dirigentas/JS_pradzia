@@ -17,6 +17,7 @@ MATEMATINES FUNKCIJOS (Math.):
 - sin/cos
 - abs (absoliutine reiksme)
 - round/ceil/floor (skirtingi apvalinimai)
+neįmanoma atvaizduoti dešimtainio skaičiaus po kablelio į dvejetainę sistemą - reikia visada apvalinti
 */
 
 console.log('Numbers...');

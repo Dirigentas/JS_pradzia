@@ -12,6 +12,8 @@
     "object": "nodemon ./js/05-object.js",
     "function": "nodemon ./js/06-function.js",
     "if": "nodemon ./js/07-if.js",
+    "for": "nodemon ./js/08-for.js",
+    "multiply": "nodemon ./js/09-multiply.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

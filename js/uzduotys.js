@@ -56,28 +56,80 @@ console.log(`${e[0]}, ${e[1]}, ${e[2]}, ${e[3]}, ${e[4]}`);
 console.log(`${f[0]}, ${f[1]}, ${f[2]}, ${f[3]}, ${f[4]}`);
 console.log('=====================');
 
-//Kintamųjų palyginimas 1
+console.log('Kintamųjų palyginimas 1 ==========')
 console.log(number1 > number2);
 console.log(number3 > number2);
 console.log(number1 == number2);
-console.log('=====================');
 
-//-------test
-number1 = 81.5
-console.log(number1);
-number2 = Math.sqrt(number1)
-console.log(Math.sqrt(number1));
-console.log(Math.round(number1));
+console.log('Kintamųjų palyginimas 2 ==========')
+console.log(string1.length);
+console.log(string2.length);
+console.log(string3.length);
 
-console.log('=====================');
+
+console.log('Ciklo for panaudojimas 1 ==========')
+function sumaIntervale (a, b) {
+    suma = 0
+    for (i = a; i <= b; i = i + 1) {
+        suma = i + suma
+    }
+    return suma
+}
+console.log(sumaIntervale(0, 0));
+console.log(sumaIntervale(0, 4));
+console.log(sumaIntervale(0, 100));
+console.log(sumaIntervale(574, 815));
+console.log(sumaIntervale(-50, 50));
+console.log(sumaIntervale(-70, 30));
+
+
+console.log('Ciklo for panaudojimas 2 ==========')
+
+let reverse = ''
+for (i = string1.length-1; i >=0; i = i - 1) {
+    reverse = reverse + string1[i]
+}
+console.log(`${string1} => ${reverse}`); 
+
+let reverse2 = ''
+for (i = string2.length-1; i >=0; i = i - 1) {
+    reverse2 = reverse2 + string2[i]
+}
+console.log(`${string2} => ${reverse2}`); 
+
+let reverse3 = ''
+for (i = string3.length-1; i >=0; i = i - 1) {
+    reverse3 = reverse3 + string3[i]
+}
+console.log(`${string3} => ${reverse3}`); 
+
+console.log('Ciklo for panaudojimas 3 ==========')
+
+0 - 11
+8 - 31
+-18 - 18
 console.clear()
 
-function oddOrEven(array) {
-    return array.reduce()
-}
-const ats = oddOrEven([]);
-console.log(ats);
+console.log('TEST=====================');
 
-console.log(oddOrEven([0, 1, 5]), 'even')
-console.log(oddOrEven([0, 1, 3]), 'even')
-console.log(oddOrEven([1023, 1, 2]), 'even')
+function countPositivesSumNegatives(input) {
+    if (input === null) {
+        return []
+    }
+    if (!input.length) {
+        return []
+    }
+    let b=0
+    let c=0
+    for (i = 0; i < input.length; i = i + 1) {
+        if (input[i] > 0) {
+            b = b + 1
+        }
+        else if (input[i] < 0) {
+            c = c + input[i]
+        }
+    }
+    return [b, c]
+}
+
+console.log(countPositivesSumNegatives([]));
