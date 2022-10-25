@@ -14,6 +14,9 @@
     "if": "nodemon ./js/07-if.js",
     "for": "nodemon ./js/08-for.js",
     "multiply": "nodemon ./js/09-multiply.js",
+    "reverse-string": "nodemon ./js/10-reverse-string.js",
+    "ternary": "nodemon ./js/11-ternary.js",
+    "sum-intervale": "nodemon ./js/12-sum-intervale.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
