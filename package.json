@@ -17,6 +17,9 @@
     "reverse-string": "nodemon ./js/10-reverse-string.js",
     "ternary": "nodemon ./js/11-ternary.js",
     "sum-intervale": "nodemon ./js/12-sum-intervale.js",
+    "numSize": "nodemon ./js/13-numSize",
+    "string-methods": "nodemon ./js/-string-methods",
+    "loops": "nodemon ./js/15-loops.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

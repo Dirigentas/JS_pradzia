@@ -112,13 +112,36 @@ console.clear()
 
 console.log('TEST=====================');
 
-function reverseList(list) {
-    let rev = list.reverse()
-    return rev
-  }
+ function quarter(a) {
+    return Math.round((a + 1) / 3)
+ }
 
-  console.log(reverseList([1, 2, 3, 4]));
+console.log(quarter(1), '=> 1');
+console.log(quarter(2), '=> 1');
+console.log(quarter(3), '=> 1');
+console.log(quarter(4), '=> 2');
+console.log(quarter(5), '=> 2');
+console.log(quarter(6), '=> 2');
+console.log(quarter(7), '=> 3');
+console.log(quarter(8), '=> 3');
+console.log(quarter(9), '=> 3');
+console.log(quarter(10), '=> 4');
+console.log(quarter(11), '=> 4');
+console.log(quarter(12), '=> 4');
 
-//   for (let i = 0; i < str.length; ++i) {
-//     const symbol = str[i];
-//     ats = symbol + ats;
+console.clear()
+
+// 👇️ ['1', '2', '3', '4']
+console.log(Array.from(String(1234)));
+
+const number = 1234;
+
+const arrOfDigits = Array.from(String(number), Number);
+console.log(arrOfDigits); // 👉️ [1, 2, 3, 4]
+
+// Supported in IE
+
+const arr = String(number).split('').map(str => Number(str));
+
+console.log(arr); // 👉️ [1, 2, 3, 4]
+

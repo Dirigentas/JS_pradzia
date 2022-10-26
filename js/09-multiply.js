@@ -1,10 +1,17 @@
+/*isNan  -  pagauna tik NaN
+NaN  !== NaN,  '' + a === 'NaN'
+isFinate  - pagauna ir NaN ir begalybe
+*/
+
 console.clear();
 
 function multiply(a, b) {
-    if (typeof a !== 'number') {
+    if (typeof a !== 'number'
+        || !isFinite(a)) {
         return 'ERROR: pirmas parametras turi buti normalus skaicius.';
     }
-    if (typeof b !== 'number') {
+    if (typeof b !== 'number'
+        || !isFinite(b)) {
         return 'ERROR: antras parametras turi buti normalus skaicius.';
     }
     const c = a * b;
@@ -22,8 +29,10 @@ console.log(multiply(0, 0), '->', 0);
 console.log(multiply(3.14, 2), '->', 6.28);
 console.log(multiply(2, 3.14), '->', 6.28);
 console.log(multiply(3.5, 2.5), '->', 8.75);
-console.log(multiply(Infinity, 2.5), '->', Infinity);
-console.log(multiply(NaN, 2.5), '->', NaN);
+console.log(multiply(Infinity, 2.5), '->', 'ERROR');
+console.log(multiply(NaN, 2.5), '->', 'ERROR');
+console.log(multiply(2.5, Infinity), '->', 'ERROR');
+console.log(multiply(2.5, NaN), '->', 'ERROR');
 console.log(multiply(5, '7'), '->', 'ERROR');
 console.log(multiply(5, 'labas'), '->', 'ERROR');
 console.log(multiply('7', 5), '->', 'ERROR');

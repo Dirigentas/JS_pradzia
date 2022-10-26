@@ -102,7 +102,7 @@ if (diena === 1) {
 }
 console.log('Siandien yra:', siandien);
 
-console.log('#############3');
+console.log('#############');
 
 
 const siltaNuoTemp = 22;
@@ -139,8 +139,6 @@ if (temp >= siltaNuoTemp && arLyja === true) {
 }
 
 console.log(ats2);
-
-// https://www.codewars.com/kata/574b3b1599d8f897470018f6/solutions/javascript
 
 function getRealFloor(n) {
     if (n <= 0) {
