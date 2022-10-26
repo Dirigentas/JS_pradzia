@@ -11,7 +11,7 @@ if (klausimas) {
 }
 */
 
-const amzius = 166;
+const amzius = 20;
 const amziausCenzas = 21;
 
 let ats = '';
@@ -29,7 +29,7 @@ console.log(ats2);
 
 
 let taiKaipIf = '';
-if (4 > 22 && 5 >> 77) {
+if (23 > 22 && 77 > 77) {
     taiKaipIf = 'daugiau';
 } else {
     taiKaipIf = 'maziau';
@@ -40,7 +40,7 @@ console.log(taiKaipIf);
 const taiKaip = 4 > 22 && 5 > 77 ? 'daugiau' : 'maziau';
 console.log(taiKaip);
 
-const age = 20;
+const age = 21;
 const zinute = age >= 21 ? 'pilnametis' : 'nepilnametis';
 console.log(zinute);
 
@@ -55,5 +55,5 @@ const a = 1 > 2
     : 4;
 console.log(a);
 
-const b = 1 > 2 ? 3 > 4 ? 5 : 6 : 7 > 8 ? 9 : 0;
+const b = 7 > 2 ? 3 > 4 ? 5 : 6 : 7 > 8 ? 9 : 0;
 console.log(b);

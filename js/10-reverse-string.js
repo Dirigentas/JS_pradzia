@@ -30,10 +30,10 @@ function reverseString(str) {
     // }
 
     // 3) einam is priekio ir simboli statom pries konstruojama teksta
-    // for (let i = 0; i < str.length; ++i) {
-    //     const symbol = str[i];
-    //     ats = symbol + ats;
-    // }
+    for (let i = 0; i < str.length; ++i) {
+        const symbol = str[i];
+        ats = symbol + ats;
+    }
 
     // 4) nenaudojamas trecias for parametras; atskira eilute
     // for (let i = 0; i < str.length;) {
@@ -55,14 +55,7 @@ function reverseString(str) {
     //     ats = symbol + ats;
     // }
 
-    // 7) pirmas for parametras iskeltas pries cikla
-    // let i = 0;
-    // for (; i < str.length;) {
-    //     const symbol = str[i++];
-    //     ats = symbol + ats;
-    // }
-
-    // 8) antras parametras kaip atskira funkcija
+    // 7) antras parametras kaip atskira funkcija
     // function arTestiCikla(index, text) {
     //     if (index < text.length) {
     //         return true;
@@ -76,7 +69,7 @@ function reverseString(str) {
     //     ats = symbol + ats;
     // }
 
-    // 9) antras parametras kaip atskira funkcija su ternary viduje
+    // 8) antras parametras kaip atskira funkcija su ternary viduje
     // function arTestiCikla(index, text) {
     //     return index < text.length ? true : false;
     // }
@@ -88,20 +81,20 @@ function reverseString(str) {
     // }
 
     // 9) antras parametras kaip atskira funkcija be didesnes logikos
-    function arTestiCikla(index, text) {
-        return index < text.length;
-    }
+    // function arTestiCikla(index, text) {
+    //     return index < text.length;
+    // }
 
-    let i = 0;
-    for (; arTestiCikla(i, str);) {
-        const symbol = str[i++];
-        ats = symbol + ats;
-    }
+    // let i = 0;
+    // for (; arTestiCikla(i, str);) {
+    //     const symbol = str[i++];
+    //     ats = symbol + ats;
+    // }
 
     return ats;
 }
 
-console.log(reverseString('abcdef'), '->', 'fedcba');
+console.log(reverseString([1, 2, 3, 4]), '->', 'fedcba');
 console.log(reverseString('sula'), '->', 'alus');
 console.log(reverseString('seked uzu kedes'), '->', 'seked uzu kedes');
 console.log(reverseString('aras'), '->', 'sara');

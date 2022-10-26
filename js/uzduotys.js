@@ -112,4 +112,13 @@ console.clear()
 
 console.log('TEST=====================');
 
+function reverseList(list) {
+    let rev = list.reverse()
+    return rev
+  }
 
+  console.log(reverseList([1, 2, 3, 4]));
+
+//   for (let i = 0; i < str.length; ++i) {
+//     const symbol = str[i];
+//     ats = symbol + ats;
