@@ -18,8 +18,9 @@
     "ternary": "nodemon ./js/11-ternary.js",
     "sum-intervale": "nodemon ./js/12-sum-intervale.js",
     "numSize": "nodemon ./js/13-numSize",
-    "string-methods": "nodemon ./js/-string-methods",
+    "string-metodai": "nodemon ./js/14-string-metodai.js",
     "loops": "nodemon ./js/15-loops.js",
+    "arrow": "16-arrow.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

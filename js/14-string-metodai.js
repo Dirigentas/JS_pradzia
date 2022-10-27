@@ -1,5 +1,9 @@
-console.clear();
-
+/*
+string.replace(a, '') - pakeicia string simbolis, gali buti all, nuo node 16
+string.includes('r') - iesko ar yra
+string.indexOf ('t')  - randa indeksa simboli
+string.slice(0, -1)console.clear();
+*/
 const str = 'Labas rytas Lietuva';
 
 const rytasPosition = str.indexOf('rytas');
@@ -13,7 +17,7 @@ console.log('labasPos', labasPos2);
 const labasPos3 = labas.indexOf('labas', labasPos2 + 1);
 console.log('labasPos', labasPos3);
 const labasPos4 = labas.indexOf('labas', labasPos3 + 1);
-console.log('labasPos', labasPos4);
+console.log('labasPos========', labasPos4);
 
 let strCount = 0;
 let strPos = 0;

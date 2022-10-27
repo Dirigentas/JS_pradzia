@@ -149,3 +149,26 @@ console.log('aras'.slice(0, -2))
 
 console.log('8 j 8   mBliB8g  imjB8B8  jl  B'.replaceAll(' ', ''))
 
+console.clear()
+
+function basicOp(operation, value1, value2) {
+    return
+  }
+
+  console.log(basicOp('+', 4, 7));
+
+  console.log(eval(2+2));
+  console.clear()
+
+  function digitize(n) {
+    n = n + ''
+    n = n.split('')
+    let a = [];
+    for ( let i of n) {
+        a += [+i]
+    }
+    return a
+  }
+  console.log(digitize(123));
+
+  console.log('labas'.toLowerCase())

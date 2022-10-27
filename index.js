@@ -1,4 +1,4 @@
-console.log(123);
+console.log('index.js');
 console.log('Labas rytas');
 console.log(2 + 2);
 console.log('2 + 2');
