@@ -1,8 +1,8 @@
 /*
-test.replase(',', '') - pakeicia string simbolis
-test.includes('r') - iesko ar yra
-test.indexOf ('t')  - randa indeksa simbolio
-test.slice(0, -1)
+string.replace(a, '') - pakeicia string simbolis, gali buti all, nuo node 16
+string.includes('r') - iesko ar yra
+string.indexOf ('t')  - randa indeksa simboli
+string.slice(0, -1)
 kai daugiau nei 20 skaitmenu skaiciuje pradeda versti i standartine skaiciaus israiska 1e+21
 */
 console.clear();

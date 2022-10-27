@@ -145,3 +145,7 @@ const arr = String(number).split('').map(str => Number(str));
 
 console.log(arr); // 👉️ [1, 2, 3, 4]
 
+console.log('aras'.slice(0, -2))
+
+console.log('8 j 8   mBliB8g  imjB8B8  jl  B'.replaceAll(' ', ''))
+
