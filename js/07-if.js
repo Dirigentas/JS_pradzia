@@ -1,5 +1,5 @@
 /*
-() paramentrams
+() paramentras
 {} logikos blokas
 jei nepriskirta 'const' arba 'let', tai by default priskiria 'var' (rizikingas)
 == ir != lygina tarp skirtingu tipu, o  === ir  !== lygina tik to paties tipo

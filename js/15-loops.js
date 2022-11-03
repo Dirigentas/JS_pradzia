@@ -183,7 +183,7 @@ const marks2 = [10, 2, 8, 4, 6];
 const sumReduce = marks2.reduce(function (total, n) {
     return total + n;
 });
-console.log('Reduce sum:', sumReduce);
+console.log('========== Reduce sum:', sumReduce);
 
 const marks3 = [1, 2, 3, 4, 5];
 const productReduce = marks3.reduce(function (total, n) {

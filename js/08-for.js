@@ -4,8 +4,6 @@ FOR - ciklas (tėvinis, visų ciklų tėvas, daro daugiausiai iš visų ciklų)
 rasti šabloną ir jį įdėti į FOR
 for (nuo kurio indekso pradėti   kiek laiko kartoti   koks žingsnis) {}
 užsivadinant variables - reikia labai aiškiai, duoti jiems reikšmes to duomenų tipo, kuris ir bus. '' string, [] array ir pan.
-
-ND. Rimanto uždaviniai, pasizaisti su praskipintom reiksmem
 */
 console.clear();
 
