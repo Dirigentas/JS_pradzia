@@ -12,12 +12,18 @@ SKAICIAI:
 - begalybe (Infinity)
 - NaN (not-a-number)
 OPERATORIAI: +, -, *, /, ** (kelimas laipsniu)
+-   jei aplink '+' yra bent vienas ne skaicius, tai veikia kaip 'sujungimo' zenklas
 MATEMATINES FUNKCIJOS (Math.):
 - sqrt (saknis)
 - sin/cos
 - abs (absoliutine reiksme)
 - round/ceil/floor (skirtingi apvalinimai)
 neįmanoma atvaizduoti dešimtainio skaičiaus po kablelio į dvejetainę sistemą - reikia visada apvalinti
+
+-   \ - ignoruoja sistemini zenkla, pvz ' arba enter
+-   \n - pereina i nauja eilute
+-   \r - nukelia slankikli i pradzia
+
 */
 
 console.log('Numbers...');

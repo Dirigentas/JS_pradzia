@@ -24,7 +24,7 @@ const a = [1, 2, 3, -4, 5]
 console.log(a);
 const b = [6, 7, 8, 9, 10.1]
 console.log(b);
-const c = [NaN, Infinity, 11,5, -12, 0]
+const c = [NaN, Infinity, 11, 5, -12, 0]
 console.log(c);
 console.log('=====================');
 // Kintamųjų inicijavimas 4
@@ -68,7 +68,7 @@ console.log(string3.length);
 
 
 console.log('Ciklo for panaudojimas 1 ==========')
-function sumaIntervale (a, b) {
+function sumaIntervale(a, b) {
     suma = 0
     for (i = a; i <= b; i = i + 1) {
         suma = i + suma
@@ -86,35 +86,35 @@ console.log(sumaIntervale(-70, 30));
 console.log('Ciklo for panaudojimas 2 ==========')
 
 let reverse = ''
-for (i = string1.length-1; i >=0; i = i - 1) {
+for (i = string1.length - 1; i >= 0; i = i - 1) {
     reverse = reverse + string1[i]
 }
-console.log(`${string1} => ${reverse}`); 
+console.log(`${string1} => ${reverse}`);
 
 let reverse2 = ''
-for (i = string2.length-1; i >=0; i = i - 1) {
+for (i = string2.length - 1; i >= 0; i = i - 1) {
     reverse2 = reverse2 + string2[i]
 }
-console.log(`${string2} => ${reverse2}`); 
+console.log(`${string2} => ${reverse2}`);
 
 let reverse3 = ''
-for (i = string3.length-1; i >=0; i = i - 1) {
+for (i = string3.length - 1; i >= 0; i = i - 1) {
     reverse3 = reverse3 + string3[i]
 }
-console.log(`${string3} => ${reverse3}`); 
+console.log(`${string3} => ${reverse3}`);
 
 console.log('Ciklo for panaudojimas 3 ==========')
 
 0 - 11
 8 - 31
--18 - 18
+    - 18 - 18
 console.clear()
 
 console.log('TEST=====================');
 
- function quarter(a) {
+function quarter(a) {
     return Math.round((a + 1) / 3)
- }
+}
 
 console.log(quarter(1), '=> 1');
 console.log(quarter(2), '=> 1');
@@ -153,22 +153,53 @@ console.clear()
 
 function basicOp(operation, value1, value2) {
     return
-  }
+}
 
-  console.log(basicOp('+', 4, 7));
+console.log(basicOp('+', 4, 7));
 
-  console.log(eval(2+2));
-  console.clear()
+console.log(eval(2 + 2));
+console.clear()
 
-  function digitize(n) {
+function digitize(n) {
     n = n + ''
     n = n.split('')
     let a = [];
-    for ( let i of n) {
+    for (let i of n) {
         a += [+i]
     }
     return a
-  }
-  console.log(digitize(123));
+}
+console.log(digitize(123));
 
-  console.log('labas'.toLowerCase())
+console.log('labas'.toLowerCase())
+
+console.clear()
+
+function digitalRoot(n) {
+    let sum = 0;
+    let sum2 = 0;
+    let sum3 = 0;
+    let sum4 = 4;
+    n = '' + n;
+    for (let i of n) {
+        sum += parseInt(i);
+    } if (sum < 10) {
+        return sum;
+    } else {
+        n = '' + sum;
+        for (i of n) {
+            sum2 += parseInt(i);
+        } if (sum2 < 10) {
+            return sum2;
+        } else {
+            n = '' + sum2;
+            for (i of n) {
+                console.log(i);
+                sum3 += parseInt(i);
+            }
+            return sum3
+        }
+    }
+}
+
+console.log(digitalRoot(493193));

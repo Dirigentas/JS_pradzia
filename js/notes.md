@@ -1,0 +1,8 @@
+-   .json - duomenu tipas, kuriuo bendrauja back'as su front'u
+-   dev dependencies:
+-   jest - testavimo aplinka
+-   transform - suvienodina duomenis
+-   Scripts:
+-   test - kodas turi praeiti parasytus testus
+-   test all - restart pamacius nauja koda
+-   test coverage - padengiamumas, visas js eilutes padengti testais
