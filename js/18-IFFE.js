@@ -1,3 +1,5 @@
+console.clear()
+
 function labas() {
     console.log('labas');
 }

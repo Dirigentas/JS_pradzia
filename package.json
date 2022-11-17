@@ -20,9 +20,9 @@
         "numSize": "nodemon ./js/13-numSize",
         "string-metodai": "nodemon ./js/14-string-metodai.js",
         "loops": "nodemon ./js/15-loops.js",
-        "arrow": "nodemon ./16-arrow.js",
-        "spread": "nodemon ./17-spread.js",
-        "IFFE": "nodemon ./18-IFFE.js",
+        "arrow": "nodemon ./js/16-arrow.js",
+        "spread": "nodemon ./js/17-spread.js",
+        "IFFE": "nodemon ./js/18-IFFE.js",
         "uzduotys": "nodemon ./js/uzduotys.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
