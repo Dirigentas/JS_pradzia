@@ -209,3 +209,39 @@ var replaceDots = function (str) {
     // added the g so that replace is run for all occurences in the string
     return str.replace(/\./g, '-');
 }
+console.clear()
+// # Kokios skaitmenų poros pasikartoja dažniausiai ?
+const input = '320577009040128809492455361379291975491910364164554142068990157900217623514918722216788672225436714890391681941306413834754851163049158889251306849868769710';
+
+// 1. pasigaminti poras
+// 2. rasti kiekvienos poros pasikartojimu kieki
+// 3. rasti didziausia kieki pasikartojimu
+// 4. isrinkti visus skaicius su didziausiu pasikartojimu
+
+let pasikartojimai = []
+for (let i = 0; i < 100; i++) {
+    pasikartojimai.push(0)
+}
+
+for (i = 0; i < input.length - 1; i++) {
+    const number = input[i] + input[i + 1]  /*1*/
+    pasikartojimai[+number]++  /*2*/
+}
+console.log(pasikartojimai);
+
+let maxCount = 1;
+
+for (i of pasikartojimai) {
+    if (i > maxCount) {
+        maxCount = i; /*3*/
+    }
+}
+console.log(maxCount);
+
+let answer = [];
+for (i = 0; i < 100; i++) {
+    if (pasikartojimai[i] === maxCount) {
+        answer.push(i) /* 4 */
+    }
+}
+console.log(answer);
