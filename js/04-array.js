@@ -3,7 +3,6 @@ undefined - kai negali surasti norimo rodmens, pavyzdziui array
 array - atvaizduoja ir kablelius ir kabutes (tai tiesiog spausdinimo info)
 deti kalblelius ir po paskutines eilutes, optimizuojamas git  comit 
 matrica - arejus kitame arejuje
-ND. pazaisti su keturmaciu masyvu
 */
 /*
 ARRAY - sąrašas, masyvas, matrica (default 2D, 3D, 4D....)
